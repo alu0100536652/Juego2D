@@ -18,5 +18,10 @@ namespace Juego2D
             this.height = height;
             map = new int[width,height];
         }
+
+        public int getMapId(int ejeX, int ejeY)
+        {
+            return map[ejeX,ejeY];
+        }
     }
 }

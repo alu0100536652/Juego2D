@@ -53,6 +53,7 @@
             this.botonJugar.TabIndex = 1;
             this.botonJugar.Text = "Jugar";
             this.botonJugar.UseVisualStyleBackColor = true;
+            this.botonJugar.Click += new System.EventHandler(this.botonJugar_Click);
             // 
             // buttonSetting
             // 
@@ -63,6 +64,7 @@
             this.buttonSetting.TabIndex = 2;
             this.buttonSetting.Text = "Opciones";
             this.buttonSetting.UseVisualStyleBackColor = true;
+            this.buttonSetting.Click += new System.EventHandler(this.buttonSetting_Click);
             // 
             // Form1
             // 
